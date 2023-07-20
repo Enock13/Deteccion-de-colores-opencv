@@ -3,7 +3,7 @@ import numpy as np
 import imutils
 
 #START THE VIDEOCAPTURE 
-Cap=cv2.VideoCapture("http:192.168.0.3:8080/video")
+Cap=cv2.VideoCapture(0)
 
 #VALUES TO DETECT COLORS IN HSV SCALE
 Dark_red1= np.array([0,50,120], np.uint8)
